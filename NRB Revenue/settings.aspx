@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Revenue1.Master" AutoEventWireup="true" CodeBehind="settings.aspx.cs" Inherits="NRB_Revenue.settings" %>
+﻿    <%@ Page Title="" Language="C#" MasterPageFile="~/Revenue1.Master" AutoEventWireup="true" CodeBehind="settings.aspx.cs" Inherits="NRB_Revenue.settings" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="">
           <h4 class="text-danger"><strong>SETTINGS:</strong></h4>
