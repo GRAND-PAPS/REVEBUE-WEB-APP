@@ -4,10 +4,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="row">
         <h4 class="text-danger"><strong>DASHBOARD:</strong></h4>
-        <div class="col m-2">
+        <div class="col m-2 card">
             <asp:Label ID="lblWeeklypiechart" runat="server" CssClass="fs-4" Font-Bold="true">Weekly Revenue Statistics</asp:Label>
             <%--Pie Chart--%>
-            <div class="alert-warning" style="height:400px;">
+            <div class="">
                 <asp:Chart ID="Chart1" runat="server" Width="646px">
                     <Series>
                         <asp:Series Name="Series1" ChartType="Line"></asp:Series>
@@ -15,9 +15,10 @@
                     <ChartAreas>
                         <asp:ChartArea Name="ChartArea1"></asp:ChartArea>
                     </ChartAreas>
-                </asp:Chart>
-                <br />
-                <asp:GridView ID="GridView1" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" Width="531px">
+                </asp:Chart>               
+            </div>
+            <div class="mt-2">
+                 <asp:GridView ID="GridView1" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" Width="531px">
                     <AlternatingRowStyle BackColor="White" />
                     <EditRowStyle BackColor="#2461BF" />
                     <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
@@ -33,10 +34,14 @@
             </div>
 
         </div>
-        <div class="col m-2">
+        <div class="col m-2 card">
             <asp:Label ID="lblMonthlypiechart" runat="server" CssClass="fs-4" Font-Bold="true">Monthly Revenue Statistics</asp:Label>
             <%--Pie Chart 2--%>
-            <div class="alert-warning" style="height:400px;">
+            <div class="">
+
+            </div>
+            <%--pie chart--%>
+            <div class="mt-2">
 
             </div>
         </div>

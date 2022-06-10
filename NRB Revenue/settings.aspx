@@ -32,10 +32,24 @@
                     </div>
                     <div class="col"><asp:TextBox ID="txtposition" runat="server" CssClass="form-control" Font-Size="X-Large" placeholder="Position"></asp:TextBox></div>
                 </div>
-                <div class="row">
-
+                <div class="col mt-2">
+                        <asp:DropDownList ID="dropInstution" runat="server" CssClass="form-control" Font-Size="X-Large">
+                            <asp:ListItem>National Registration Bureau</asp:ListItem>
+                            <asp:ListItem>Accountant General</asp:ListItem>
+                            <asp:ListItem>Ministry of Finance</asp:ListItem>
+                        </asp:DropDownList>              
                 </div>
-            </div>            
+                <div class="row mt-2">
+                    <div class="col">
+                         <div class="col"><asp:TextBox ID="txtPassword" runat="server" CssClass="form-control" Font-Size="X-Large" placeholder="Password" Type="Password"></asp:TextBox></div>                        
+                    </div>
+                    <div class="col"><asp:TextBox ID="txtinstution" runat="server" CssClass="form-control" Font-Size="X-Large" placeholder="Username"></asp:TextBox></div>                    
+                </div>
+                
+                <div class="mt-2">
+                    <asp:Button ID="btnsubimt" runat="server" CssClass="btn btn-success fs-3 col-4" Text="Save" />
+                </div>
+            </div>
         </div>
     </div>
 </asp:Content>
