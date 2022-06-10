@@ -1,0 +1,19 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Revenue.master.cs" Inherits="NRB_Revenue.Revenue" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>NRB REVENUE</title>
+    <link href="bootstrap-5/css/bootstrap.css" rel="stylesheet" />
+    <link href="bootstrap-5/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body class="alert alert-secondary">
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Revenue1.master.cs" Inherits="NRB_Revenue.Revenue1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>NRB REVENUE</title>
+    <link href="bootstrap-5/css/bootstrap.css" rel="stylesheet" />
+    <link href="bootstrap-5/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="bootstrap-5/css/bootstrap-icons.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body class="row alert alert-secondary">
+    <div class="m-3 col-12">
+            <img src="logo_nrb.png" alt="NRB logo" />
+    </div>
+    <div class="nav sidebar-nav col-2 mt-4">        
+        <div class="m-2 pa-6">
+            <ul class="list-group list-group-flush fs-3">
+                 <li class="list-group-item list-group-item-secondary"><a href="dashboard.aspx" class="deco"><strong>Dashboard</strong></a></li>
+                 <li class="list-group-item list-group-item-secondary"><a href="report.aspx" class="deco"><strong>Reports</strong></a></li>
+                  <li class="list-group-item list-group-item-secondary pa-7 bi bi-gear"><a href="settings.aspx" class="deco"><strong>Settings</strong></a></li>
+            </ul>
+        </div>          
+    </div>
+
+            <form id="form1" runat="server" class="col-10 mt-4">
+                <div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </form>
+    
+</body>
+</html>
