@@ -5,7 +5,7 @@
     <div class="row">
         <h4 class=""><strong>DASHBOARD:</strong></h4>
         <div class="col card">
-            <asp:Label ID="lblWeeklypiechart" runat="server" CssClass="fs-4" Font-Bold="true">Weekly Revenue Statistics</asp:Label>
+            <asp:Label ID="lblWeeklypiechart" runat="server" CssClass="fs-4 text-info" Font-Bold="true">Weekly Revenue Statistics</asp:Label>
             <%--Pie Chart--%>
             <div class="">
                 <asp:Chart ID="Chart1" runat="server" Width="646px">
@@ -35,7 +35,7 @@
 
         </div>
         <div class="col card">
-            <asp:Label ID="lblMonthlypiechart" runat="server" CssClass="fs-4" Font-Bold="true">Monthly Revenue Statistics</asp:Label>
+            <asp:Label ID="lblMonthlypiechart" runat="server" CssClass="fs-4 text-info" Font-Bold="true">Monthly Revenue Statistics</asp:Label>
             <%--Pie Chart 2--%>
             <div class="">
 
@@ -47,7 +47,7 @@
         </div>
     </div>
     <div class="col mt-3">
-        <asp:Label ID="lblbargraphstat" CssClass="fs-4" runat="server" Font-Bold="true">Annualy Revenue Statistics</asp:Label>
+        <asp:Label ID="lblbargraphstat" CssClass="fs-4 text-info" runat="server" Font-Bold="true">Annualy Revenue Statistics</asp:Label>
         <%--Bar Graph--%>
         <div class="card">
 
