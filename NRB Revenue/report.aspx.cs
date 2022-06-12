@@ -23,5 +23,10 @@ namespace NRB_Revenue
         {
 
         }
+
+        protected void btnreportsearch_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

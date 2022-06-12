@@ -87,13 +87,13 @@ namespace NRB_Revenue
         protected global::System.Web.UI.WebControls.TextBox txtPassword;
 
         /// <summary>
-        /// txtinstution control.
+        /// txtusername control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtinstution;
+        protected global::System.Web.UI.WebControls.TextBox txtusername;
 
         /// <summary>
         /// btnUpdate control.

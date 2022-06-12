@@ -43,13 +43,13 @@
                     <div class="col">
                          <div class="col"><asp:TextBox ID="txtPassword" runat="server" CssClass="form-control" Font-Size="X-Large" placeholder="Password" Type="Password"></asp:TextBox></div>                        
                     </div>
-                    <div class="col"><asp:TextBox ID="txtinstution" runat="server" CssClass="form-control" Font-Size="X-Large" placeholder="Username"></asp:TextBox></div>                    
+                    <div class="col"><asp:TextBox ID="txtusername" runat="server" CssClass="form-control" Font-Size="X-Large" placeholder="Username"></asp:TextBox></div>                    
                 </div>
                 
                 <div class="row mt-2">
                     <div class="col"></div>
                     <div class="col text-center">                        
-                        <asp:Button ID="btnUpdate" runat="server" CssClass="btn btn-info fs-3 col-4 mr-2" Text="Update" OnClick="btnUpdate_Click" /> 
+                        <asp:Button ID="btnUpdate" runat="server" CssClass="btn btn-info fs-3 col-4" Text="Update" OnClick="btnUpdate_Click" /> 
                         <asp:Button ID="btnsubimt" runat="server" CssClass="btn btn-success fs-3 col-4" Text="Save" OnClick="btnsubimt_Click"/>
                     </div>
                 </div>
