@@ -18,5 +18,15 @@ namespace NRB_Revenue
         {
 
         }
+
+        protected void btnUpdate_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btnsubimt_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
