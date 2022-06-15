@@ -1,7 +1,7 @@
 ﻿    <%@ Page Title="" Language="C#" MasterPageFile="~/Revenue1.Master" AutoEventWireup="true" CodeBehind="settings.aspx.cs" Inherits="NRB_Revenue.settings" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="">
-          <h4 class="text-danger"><strong>SETTINGS:</strong></h4>
+     <div class="">
+          <h4 class=""><strong>SETTINGS:</strong></h4>
         <div class="col row">
             <div class="col"></div>
             <div class="col row">
@@ -12,7 +12,7 @@
 
         <div class="mt-4 row">
             <%--GridView section--%>
-            <div class="col">
+            <div class="col card">
 
             </div>
 
@@ -43,11 +43,15 @@
                     <div class="col">
                          <div class="col"><asp:TextBox ID="txtPassword" runat="server" CssClass="form-control" Font-Size="X-Large" placeholder="Password" Type="Password"></asp:TextBox></div>                        
                     </div>
-                    <div class="col"><asp:TextBox ID="txtinstution" runat="server" CssClass="form-control" Font-Size="X-Large" placeholder="Username"></asp:TextBox></div>                    
+                    <div class="col"><asp:TextBox ID="txtusername" runat="server" CssClass="form-control" Font-Size="X-Large" placeholder="Username"></asp:TextBox></div>                    
                 </div>
                 
-                <div class="mt-2">
-                    <asp:Button ID="btnsubimt" runat="server" CssClass="btn btn-success fs-3 col-4" Text="Save" />
+                <div class="row mt-2">
+                    <div class="col"></div>
+                    <div class="col text-center">                        
+                        <asp:Button ID="btnUpdate" runat="server" CssClass="btn btn-info fs-3 col-4" Text="Update" OnClick="btnUpdate_Click" /> 
+                        <asp:Button ID="btnsubimt" runat="server" CssClass="btn btn-success fs-3 col-4" Text="Save" OnClick="btnsubimt_Click"/>
+                    </div>
                 </div>
             </div>
         </div>

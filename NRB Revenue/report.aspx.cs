@@ -13,5 +13,20 @@ namespace NRB_Revenue
         {
 
         }
+
+        protected void reportRadioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void reportRadioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btnreportsearch_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
