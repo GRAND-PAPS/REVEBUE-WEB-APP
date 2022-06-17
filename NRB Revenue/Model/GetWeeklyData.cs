@@ -16,7 +16,8 @@ namespace NRB_Revenue.Model
             DataTable Dt = new DataTable();
             using(SqlConnection con = new SqlConnection(DBConnects.GetConnection()))
             {
-                SqlDataAdapter Adp = new SqlDataAdapter(RevenueQueries.GetWeeklyData(), DBConnects.GetConnection());                Adp.Fill(Dt);
+                SqlDataAdapter Adp = new SqlDataAdapter(RevenueQueries.GetWeeklyData(), DBConnects.GetConnection());                
+                Adp.Fill(Dt);
             }
             return Dt;
         }
