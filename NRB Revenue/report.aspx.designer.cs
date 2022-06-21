@@ -33,6 +33,15 @@ namespace NRB_Revenue
         protected global::System.Web.UI.WebControls.DropDownList allreports;
 
         /// <summary>
+        /// districtdroplist control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList districtdroplist;
+
+        /// <summary>
         /// reportRadioButton2 control.
         /// </summary>
         /// <remarks>
@@ -40,6 +49,15 @@ namespace NRB_Revenue
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton reportRadioButton2;
+
+        /// <summary>
+        /// districtdroplist2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList districtdroplist2;
 
         /// <summary>
         /// txtreportdatestart control.
