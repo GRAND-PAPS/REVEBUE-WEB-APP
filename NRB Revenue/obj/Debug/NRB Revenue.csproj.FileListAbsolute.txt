@@ -293,3 +293,101 @@ C:\Users\Thyolani\Source\Repos\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue
 C:\Users\Thyolani\Source\Repos\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.csproj.CopyComplete
 C:\Users\Thyolani\Source\Repos\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.dll
 C:\Users\Thyolani\Source\Repos\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.pdb
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\NRB Revenue.dll.config
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\NRB Revenue.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\NRB Revenue.pdb
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\csc.exe
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\csc.exe.config
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\csc.rsp
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\csi.exe
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\csi.exe.config
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\csi.rsp
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\System.AppContext.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\System.Console.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\System.IO.Compression.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\System.Net.Http.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\System.ValueTuple.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\vbc.exe
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\vbc.exe.config
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\vbc.rsp
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\VBCSCompiler.exe
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.csproj.AssemblyReference.cache
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.csproj.CoreCompileInputs.cache
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.csproj.CopyComplete
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.dll
+C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.pdb
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportDesigner.ChartWinControl.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportDesigner.Controls.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportDesigner.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportDesigner.GaugeWinControl.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportDesigner.MapWinControl.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportDesigner.RichText.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportDesigner.RplObjectModel.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportingServices.Designer.RdlDowngrade.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportingServices.Diagnostics.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportingServices.RdlObjectModel.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportViewer.Design.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportViewer.WebDesign.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.Interop.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.Shell.15.0.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.Shell.Design.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.Shell.Framework.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.SqlServer.Types.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.mshtml.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\EnvDTE.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.Telemetry.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.RpcContracts.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\stdole.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\System.Memory.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.Utilities.Internal.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Newtonsoft.Json.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.RemoteControl.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.MSXML.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\System.Buffers.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.GraphModel.xml
