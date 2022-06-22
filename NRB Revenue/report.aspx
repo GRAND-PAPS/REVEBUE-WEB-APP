@@ -28,8 +28,8 @@
                 <div class="col-2 text-center mt-2"><asp:RadioButton ID="reportRadioButton2" runat="server" CssClass="form-check-input alert-secondary" GroupName="report" OnCheckedChanged="reportRadioButton2_CheckedChanged" AutoPostBack="true" /></div>
                 <div class="row col-10">
                     <div class="col">
-                        <asp:DropDownList ID="districtdroplist2" runat="server" CssClass="form-control fs-5">
-                            <asp:ListItem>Districts droplist</asp:ListItem>
+                        <asp:DropDownList ID="districtdroplist2" DataValueField="name" DataMember="districtid" runat="server" CssClass="form-control fs-5">
+                            <asp:ListItem>Select District</asp:ListItem>
                         </asp:DropDownList>
                     </div>
                     <div class="col"><asp:TextBox ID="txtreportdatestart" runat="server" CssClass="form-control fs-5" Type="date" Font-size="Larger"></asp:TextBox></div>
@@ -53,7 +53,6 @@
         <rsweb:ReportViewer Width="1200px" ID="ReportViewer1" runat="server" BackColor="" ClientIDMode="AutoID" HighlightBackgroundColor="" InternalBorderColor="204, 204, 204" InternalBorderStyle="Solid" InternalBorderWidth="1px" LinkActiveColor="" LinkActiveHoverColor="" LinkDisabledColor="" PrimaryButtonBackgroundColor="" PrimaryButtonForegroundColor="" PrimaryButtonHoverBackgroundColor="" PrimaryButtonHoverForegroundColor="" SecondaryButtonBackgroundColor="" SecondaryButtonForegroundColor="" SecondaryButtonHoverBackgroundColor="" SecondaryButtonHoverForegroundColor="" SplitterBackColor="" ToolbarDividerColor="" ToolbarForegroundColor="" ToolbarForegroundDisabledColor="" ToolbarHoverBackgroundColor="" ToolbarHoverForegroundColor="" ToolBarItemBorderColor="" ToolBarItemBorderStyle="Solid" ToolBarItemBorderWidth="1px" ToolBarItemHoverBackColor="" ToolBarItemPressedBorderColor="51, 102, 153" ToolBarItemPressedBorderStyle="Solid" ToolBarItemPressedBorderWidth="1px" ToolBarItemPressedHoverBackColor="153, 187, 226">
             <LocalReport ReportPath="Reports\Report1.rdlc"></LocalReport>
         </rsweb:ReportViewer>
-        <asp:GridView ID="GridView1" runat="server"></asp:GridView>
 
     </div>
 </asp:Content>

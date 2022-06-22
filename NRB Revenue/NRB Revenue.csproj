@@ -149,12 +149,14 @@
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Model\DBConnects.cs" />
+    <Compile Include="Model\Districts.cs" />
     <Compile Include="Model\GetWeeklyData.cs" />
     <Compile Include="Model\MonthlyData.cs" />
     <Compile Include="Model\Reports.cs" />
     <Compile Include="Model\UserDetails.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueryBank\CreateUser.cs" />
+    <Compile Include="QueryBank\DistrictsQuery.cs" />
     <Compile Include="QueryBank\ReportQuery.cs" />
     <Compile Include="QueryBank\RevenueQueries.cs" />
     <Compile Include="report.aspx.cs">

@@ -16,22 +16,24 @@ namespace NRB_Revenue
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            allreports.Enabled=false;
-            txtreportdatestart.Enabled=false;
-            txtreportdateend.Enabled=false;
+            allreports.Enabled = false;
+            txtreportdatestart.Enabled = false;
+            txtreportdateend.Enabled = false;
+            districtdroplist.Enabled = false;
+            districtdroplist2.Enabled = false;
 
-            
-
+            districtdroplist2.DataSource = Districts.GetDistricts();
+            districtdroplist2.DataBind();
         }
-        
-
         protected void reportRadioButton1_CheckedChanged(object sender, EventArgs e)
         {
             allreports.Enabled = true;
+            districtdroplist.Enabled = true;
         }
 
         protected void reportRadioButton2_CheckedChanged(object sender, EventArgs e)
         {
+            districtdroplist2.Enabled = true;
             txtreportdatestart.Enabled = true;
             txtreportdateend.Enabled = true;
         }
@@ -40,7 +42,7 @@ namespace NRB_Revenue
         {
             using (SqlConnection con = new SqlConnection(DBConnects.GetConnection()))
             {
-                if (con.State == System.Data.ConnectionState.Closed) { con.Open(); };
+                if (con.State == ConnectionState.Closed) { con.Open(); };
                 using (SqlCommand cmd = new SqlCommand(ReportQuery.GetMonthlyReport(), con))
                 {
                     SqlDataReader dr = cmd.ExecuteReader();
@@ -51,8 +53,6 @@ namespace NRB_Revenue
                         ReportViewer1.LocalReport.DataSources.Add(new ReportDataSource("DataSet1", dt));
                         ReportViewer1.LocalReport.EnableHyperlinks = true;
 
-                        //GridView1.DataSource = dt;
-                        //GridView1.DataBind();
                     }
                 }
             }
