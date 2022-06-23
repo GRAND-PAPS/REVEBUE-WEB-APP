@@ -44,6 +44,60 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportDesigner">
+      <HintPath>E:\repos\GRAND-PAPS\Production\bin\Microsoft.ReportDesigner.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportDesigner.ChartWinControl">
+      <HintPath>E:\repos\GRAND-PAPS\Production\bin\Microsoft.ReportDesigner.ChartWinControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportDesigner.Controls">
+      <HintPath>E:\repos\GRAND-PAPS\Production\bin\Microsoft.ReportDesigner.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportDesigner.GaugeWinControl">
+      <HintPath>E:\repos\GRAND-PAPS\Production\bin\Microsoft.ReportDesigner.GaugeWinControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportDesigner.MapWinControl">
+      <HintPath>E:\repos\GRAND-PAPS\Production\bin\Microsoft.ReportDesigner.MapWinControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportDesigner.RichText">
+      <HintPath>E:\repos\GRAND-PAPS\Production\bin\Microsoft.ReportDesigner.RichText.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportDesigner.RplObjectModel">
+      <HintPath>E:\repos\GRAND-PAPS\Production\bin\Microsoft.ReportDesigner.RplObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportingServices.Designer.RdlDowngrade">
+      <HintPath>E:\repos\GRAND-PAPS\Production\bin\Microsoft.ReportingServices.Designer.RdlDowngrade.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportingServices.Diagnostics">
+      <HintPath>E:\repos\GRAND-PAPS\Production\bin\Microsoft.ReportingServices.Diagnostics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportingServices.RdlObjectModel">
+      <HintPath>E:\repos\GRAND-PAPS\Production\bin\Microsoft.ReportingServices.RdlObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\repos\GRAND-PAPS\Production\bin\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\repos\GRAND-PAPS\Production\bin\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\repos\GRAND-PAPS\Production\bin\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\repos\GRAND-PAPS\Production\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebDesign, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\repos\GRAND-PAPS\Production\bin\Microsoft.ReportViewer.WebDesign.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\repos\GRAND-PAPS\Production\bin\Microsoft.ReportViewer.WebForms.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DataVisualization" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -82,6 +136,11 @@
     <Compile Include="dashboard.aspx.designer.cs">
       <DependentUpon>dashboard.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DataSets\DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -91,9 +150,12 @@
     </Compile>
     <Compile Include="Model\DBConnects.cs" />
     <Compile Include="Model\GetWeeklyData.cs" />
+    <Compile Include="Model\MonthlyData.cs" />
+    <Compile Include="Model\Reports.cs" />
     <Compile Include="Model\UserDetails.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueryBank\CreateUser.cs" />
+    <Compile Include="QueryBank\ReportQuery.cs" />
     <Compile Include="QueryBank\RevenueQueries.cs" />
     <Compile Include="report.aspx.cs">
       <DependentUpon>report.aspx</DependentUpon>
@@ -125,6 +187,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DataSets\DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSets\DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSets\DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Content>
     <None Include="packages.config" />
     <Content Include="Revenue.Master" />
     <Content Include="Revenue1.Master" />
@@ -135,7 +208,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Reports\Report1.rdlc" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

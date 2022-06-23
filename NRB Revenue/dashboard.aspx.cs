@@ -17,6 +17,7 @@ namespace NRB_Revenue
             if(!IsPostBack)
             {
                 GetData();
+                GetMonthlyData();
             }
         }
         void GetData()
@@ -25,10 +26,21 @@ namespace NRB_Revenue
             GridView1.DataBind();
 
             Chart1.DataSource = GetWeeklyData.DisplayRecord();
-            //Chart1.Legends[0].Enabled = true;
             Chart1.Series[0].XValueMember = "Days";
             Chart1.Series[0].YValueMembers = "Total";
             Chart1.DataBind();
+        }
+        void GetMonthlyData()
+        {
+            chtMonthly.DataSource = MonthlyData.GetMonthlyData();
+            chtMonthly.Series[0].YValueMembers = "Damaged";
+            chtMonthly.Series[0].YValueMembers = "Defaced";
+            chtMonthly.Series[0].YValueMembers = "Expired";
+            chtMonthly.Series[0].YValueMembers = "NameChange";
+            chtMonthly.Series[0].YValueMembers = "Lost";
+            chtMonthly.Series[0].XValueMember = "Months";
+
+            chtMonthly.DataBind();
         }
     }
 }

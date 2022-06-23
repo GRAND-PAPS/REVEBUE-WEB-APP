@@ -1,5 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Revenue1.Master" AutoEventWireup="true" CodeBehind="dashboard.aspx.cs" Inherits="NRB_Revenue.dashboard" %>
 
+<%@ Register Assembly="Microsoft.ReportViewer.WebForms" Namespace="Microsoft.Reporting.WebForms" TagPrefix="rsweb" %>
+
 <%@ Register Assembly="System.Web.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Namespace="System.Web.UI.DataVisualization.Charting" TagPrefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="row">
@@ -38,7 +40,14 @@
             <asp:Label ID="lblMonthlypiechart" runat="server" CssClass="fs-4 text-info" Font-Bold="true">Monthly Revenue Statistics</asp:Label>
             <%--Pie Chart 2--%>
             <div class="">
-
+                <asp:Chart ID="chtMonthly" runat="server" Width="646px">
+                    <Series>
+                        <asp:Series Name="Series1"></asp:Series>
+                    </Series>
+                    <ChartAreas>
+                        <asp:ChartArea Name="ChartArea1"></asp:ChartArea>
+                    </ChartAreas>
+                </asp:Chart>
             </div>
             <%--pie chart--%>
             <div class="mt-2">
@@ -50,7 +59,7 @@
         <asp:Label ID="lblbargraphstat" CssClass="fs-4 text-info" runat="server" Font-Bold="true">Annualy Revenue Statistics</asp:Label>
         <%--Bar Graph--%>
         <div class="card">
-
+            
         </div>
     </div>
 </asp:Content>

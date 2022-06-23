@@ -1,5 +1,10 @@
-﻿using System;
+﻿using Microsoft.Reporting.WebForms;
+using NRB_Revenue.Model;
+using NRB_Revenue.QueryBank;
+using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -11,22 +16,46 @@ namespace NRB_Revenue
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            allreports.Enabled=false;
+            txtreportdatestart.Enabled=false;
+            txtreportdateend.Enabled=false;
+
+            
 
         }
+        
 
         protected void reportRadioButton1_CheckedChanged(object sender, EventArgs e)
         {
-
+            allreports.Enabled = true;
         }
 
         protected void reportRadioButton2_CheckedChanged(object sender, EventArgs e)
         {
-
+            txtreportdatestart.Enabled = true;
+            txtreportdateend.Enabled = true;
         }
 
         protected void btnreportsearch_Click(object sender, EventArgs e)
         {
+            using (SqlConnection con = new SqlConnection(DBConnects.GetConnection()))
+            {
+                if (con.State == System.Data.ConnectionState.Closed) { con.Open(); };
+                using (SqlCommand cmd = new SqlCommand(ReportQuery.GetMonthlyReport(), con))
+                {
+                    SqlDataReader dr = cmd.ExecuteReader();
+                    if (dr.Read())
+                    {
+                        DataTable dt = new DataTable();
+                        dt.Load(dr);
+                        ReportViewer1.LocalReport.DataSources.Add(new ReportDataSource("DataSet1", dt));
+                        ReportViewer1.LocalReport.EnableHyperlinks = true;
 
+                        //GridView1.DataSource = dt;
+                        //GridView1.DataBind();
+                    }
+                }
+            }
         }
     }
 }
