@@ -492,6 +492,7 @@ E:\Grindelwald\My Projects\Project 1\NRB Revenue\REVEBUE-WEB-APP\NRB Revenue\bin
 E:\Grindelwald\My Projects\Project 1\NRB Revenue\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.TemplateWizardInterface.xml
 E:\Grindelwald\My Projects\Project 1\NRB Revenue\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportViewer.WinForms.xml
 E:\Grindelwald\My Projects\Project 1\NRB Revenue\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.GraphModel.xml
+<<<<<<< HEAD
 G:\DEV C#\NRB Systems\NEW NRB\REVEBUE-WEB-APP\NRB Revenue\bin\NRB Revenue.dll.config
 G:\DEV C#\NRB Systems\NEW NRB\REVEBUE-WEB-APP\NRB Revenue\bin\NRB Revenue.dll
 G:\DEV C#\NRB Systems\NEW NRB\REVEBUE-WEB-APP\NRB Revenue\bin\NRB Revenue.pdb
@@ -581,3 +582,5 @@ G:\DEV C#\NRB Systems\NEW NRB\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.
 G:\DEV C#\NRB Systems\NEW NRB\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.csproj.CopyComplete
 G:\DEV C#\NRB Systems\NEW NRB\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.dll
 G:\DEV C#\NRB Systems\NEW NRB\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.pdb
+=======
+>>>>>>> 55cbf14c941b7a996a8595f906f55e6650c0ecda
