@@ -36,7 +36,6 @@
                         <asp:DropDownList ID="dropInstution" runat="server" CssClass="form-control" Font-Size="X-Large">
                             <asp:ListItem>National Registration Bureau</asp:ListItem>
                             <asp:ListItem>Accountant General</asp:ListItem>
-                            <asp:ListItem>Ministry of Finance</asp:ListItem>
                         </asp:DropDownList>              
                 </div>
                 <div class="row mt-2">

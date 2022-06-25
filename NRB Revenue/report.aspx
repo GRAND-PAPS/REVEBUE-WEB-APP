@@ -13,7 +13,10 @@
                         <asp:DropDownList ID="allreports" runat="server" CssClass="form-control fs-5">
                             <asp:ListItem>Monthly Report</asp:ListItem>
                             <asp:ListItem>Annualy Report</asp:ListItem>
-                            <asp:ListItem>Quarter Report</asp:ListItem>
+                            <asp:ListItem Value="April - June">April - June quarter</asp:ListItem>
+                            <asp:ListItem Value="July - September">July - September quarter</asp:ListItem>
+                            <asp:ListItem Value="October - December">October - December quarter</asp:ListItem>
+                            <asp:ListItem Value="January - March">January - March quarter</asp:ListItem>
                         </asp:DropDownList>
                     </div>
                     <div class="col">
