@@ -48,24 +48,40 @@ namespace NRB_Revenue
 
         protected void btnreportsearch_Click(object sender, EventArgs e)
         {
-            using (SqlConnection con = new SqlConnection(DBConnects.GetConnection()))
+            if (reportRadioButton2.Checked == true)
             {
-                if (con.State == ConnectionState.Closed) { con.Open(); };
-                using (SqlCommand cmd = new SqlCommand(RevenueQueries.GetMonthlyReportByDates(districtdroplist2.SelectedValue.ToString(),txtreportdatestart.Text,txtreportdateend.Text), con))
-                {
-                    SqlDataReader dr = cmd.ExecuteReader();
-                    if (dr.Read())
-                    {
-                        DataTable dt = new DataTable();
-                        dt.Load(dr);
-                        
-                        ReportViewer1.ProcessingMode = ProcessingMode.Local;
-                        ReportViewer1.LocalReport.ReportPath = Server.MapPath(@"Reports\DistrictReport.rdlc");
-                        ReportViewer1.LocalReport.DataSources.Clear();
-                        ReportViewer1.LocalReport.DataSources.Add(new ReportDataSource("DataSet1", dt));
-                        ReportViewer1.LocalReport.EnableHyperlinks = true;
+                ReportViewer1.ProcessingMode = ProcessingMode.Local;
+                ReportViewer1.LocalReport.ReportPath = Server.MapPath(@"Reports\DistrictReport.rdlc");
+                ReportViewer1.LocalReport.DataSources.Clear();
+                ReportViewer1.LocalReport.DataSources.Add(new ReportDataSource("DataSet1", Reports.GetMonthlyReport()));
+                ReportViewer1.LocalReport.EnableHyperlinks = true;
 
-                    }
+                //using (SqlConnection con = new SqlConnection(DBConnects.GetConnection()))
+                //{
+                //    if (con.State == ConnectionState.Closed) { con.Open(); };
+                //    using (SqlCommand cmd = new SqlCommand(RevenueQueries.GetMonthlyReportByDates(districtdroplist2.SelectedValue.ToString(), txtreportdatestart.Text, txtreportdateend.Text), con))
+                //    {
+                //        SqlDataReader dr = cmd.ExecuteReader();
+                //        if (dr.Read())
+                //        {
+                //            DataTable dt = new DataTable();
+                //            dt.Load(dr);
+
+                //            ReportViewer1.ProcessingMode = ProcessingMode.Local;
+                //            ReportViewer1.LocalReport.ReportPath = Server.MapPath(@"Reports\DistrictReport.rdlc");
+                //            ReportViewer1.LocalReport.DataSources.Clear();
+                //            ReportViewer1.LocalReport.DataSources.Add(new ReportDataSource("DataSet1", dt));
+                //            ReportViewer1.LocalReport.EnableHyperlinks = true;
+
+                //        }
+                //    }
+                //}
+            }
+            else if(reportRadioButton1.Checked==true)
+            {
+                if(allreports.SelectedValue.ToString()== "Monthly Report")
+                {
+
                 }
             }
         }

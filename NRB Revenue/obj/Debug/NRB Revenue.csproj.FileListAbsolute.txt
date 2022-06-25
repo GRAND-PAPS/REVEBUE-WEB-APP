@@ -353,16 +353,6 @@ C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB
 C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.csproj.CopyComplete
 C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.dll
 C:\Users\ISSAH\Source\Repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.pdb
-C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportDesigner.ChartWinControl.dll
-C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportDesigner.Controls.dll
-C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportDesigner.dll
-C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportDesigner.GaugeWinControl.dll
-C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportDesigner.MapWinControl.dll
-C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportDesigner.RichText.dll
-C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportDesigner.RplObjectModel.dll
-C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportingServices.Designer.RdlDowngrade.dll
-C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportingServices.Diagnostics.dll
-C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportingServices.RdlObjectModel.dll
 C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportViewer.Common.dll
 C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportViewer.DataVisualization.dll
 C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportViewer.Design.dll
@@ -492,7 +482,6 @@ E:\Grindelwald\My Projects\Project 1\NRB Revenue\REVEBUE-WEB-APP\NRB Revenue\bin
 E:\Grindelwald\My Projects\Project 1\NRB Revenue\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.TemplateWizardInterface.xml
 E:\Grindelwald\My Projects\Project 1\NRB Revenue\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportViewer.WinForms.xml
 E:\Grindelwald\My Projects\Project 1\NRB Revenue\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.GraphModel.xml
-<<<<<<< HEAD
 G:\DEV C#\NRB Systems\NEW NRB\REVEBUE-WEB-APP\NRB Revenue\bin\NRB Revenue.dll.config
 G:\DEV C#\NRB Systems\NEW NRB\REVEBUE-WEB-APP\NRB Revenue\bin\NRB Revenue.dll
 G:\DEV C#\NRB Systems\NEW NRB\REVEBUE-WEB-APP\NRB Revenue\bin\NRB Revenue.pdb
@@ -582,5 +571,9 @@ G:\DEV C#\NRB Systems\NEW NRB\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.
 G:\DEV C#\NRB Systems\NEW NRB\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.csproj.CopyComplete
 G:\DEV C#\NRB Systems\NEW NRB\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.dll
 G:\DEV C#\NRB Systems\NEW NRB\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.pdb
-=======
 >>>>>>> 55cbf14c941b7a996a8595f906f55e6650c0ecda
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\EnvDTE80.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportViewer.WebForms.xml
+C:\Users\ISSAH\source\repos\GRAND-PAPS\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportViewer.WinForms.xml
