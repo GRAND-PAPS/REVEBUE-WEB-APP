@@ -13,5 +13,11 @@ namespace NRB_Revenue.Model
             string connection = ConfigurationManager.ConnectionStrings["Development"].ToString();
             return connection;
         }
+
+        public static string GetconnRev()
+        {
+            string conn = ConfigurationManager.ConnectionStrings["RevDevo"].ToString();
+            return conn;
+        }
     }
 }
