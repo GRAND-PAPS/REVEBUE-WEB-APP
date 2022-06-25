@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DistrictDataSet" targetNamespace="http://tempuri.org/DistrictDataSet.xsd" xmlns:mstns="http://tempuri.org/DistrictDataSet.xsd" xmlns="http://tempuri.org/DistrictDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DistrictDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DistrictDataSet" msprop:Generator_DataSetName="DistrictDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_UserTableName="DataTable1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Months" msprop:Generator_ColumnPropNameInRow="Months" msprop:Generator_ColumnPropNameInTable="MonthsColumn" msprop:Generator_ColumnVarNameInTable="columnMonths" msprop:Generator_UserColumnName="Months" type="xs:string" minOccurs="0" />
+              <xs:element name="District" msprop:Generator_ColumnPropNameInRow="District" msprop:Generator_ColumnPropNameInTable="DistrictColumn" msprop:Generator_ColumnVarNameInTable="columnDistrict" msprop:Generator_UserColumnName="District" type="xs:string" minOccurs="0" />
+              <xs:element name="Damaged" msprop:Generator_ColumnPropNameInRow="Damaged" msprop:Generator_ColumnPropNameInTable="DamagedColumn" msprop:Generator_ColumnVarNameInTable="columnDamaged" msprop:Generator_UserColumnName="Damaged" type="xs:string" minOccurs="0" />
+              <xs:element name="Defaced" msprop:Generator_ColumnPropNameInRow="Defaced" msprop:Generator_ColumnPropNameInTable="DefacedColumn" msprop:Generator_ColumnVarNameInTable="columnDefaced" msprop:Generator_UserColumnName="Defaced" type="xs:string" minOccurs="0" />
+              <xs:element name="Expired" msprop:Generator_ColumnPropNameInRow="Expired" msprop:Generator_ColumnPropNameInTable="ExpiredColumn" msprop:Generator_ColumnVarNameInTable="columnExpired" msprop:Generator_UserColumnName="Expired" type="xs:string" minOccurs="0" />
+              <xs:element name="NameChange" msprop:Generator_ColumnPropNameInRow="NameChange" msprop:Generator_ColumnPropNameInTable="NameChangeColumn" msprop:Generator_ColumnVarNameInTable="columnNameChange" msprop:Generator_UserColumnName="NameChange" type="xs:string" minOccurs="0" />
+              <xs:element name="OtherChanges" msprop:Generator_ColumnPropNameInRow="OtherChanges" msprop:Generator_ColumnPropNameInTable="OtherChangesColumn" msprop:Generator_ColumnVarNameInTable="columnOtherChanges" msprop:Generator_UserColumnName="OtherChanges" type="xs:string" minOccurs="0" />
+              <xs:element name="Lost" msprop:Generator_ColumnPropNameInRow="Lost" msprop:Generator_ColumnPropNameInTable="LostColumn" msprop:Generator_ColumnVarNameInTable="columnLost" msprop:Generator_UserColumnName="Lost" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
