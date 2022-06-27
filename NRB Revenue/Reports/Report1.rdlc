@@ -6,30 +6,30 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.1875in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>0.70833in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>0.72083in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>0.80417in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>0.975in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>0.975in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>0.5625in</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
             <TablixRow>
-              <Height>0.25in</Height>
+              <Height>0.35in</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -256,7 +256,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!Date.Value</Value>
-                              <Style />
+                              <Style>
+                                <Format>d MMMM, yyyy</Format>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -286,7 +288,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!Damaged.Value</Value>
-                              <Style />
+                              <Style>
+                                <Format>#,0;(#,0)</Format>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -316,7 +320,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!Expired.Value</Value>
-                              <Style />
+                              <Style>
+                                <Format>#,0;(#,0)</Format>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -346,7 +352,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!Defaced.Value</Value>
-                              <Style />
+                              <Style>
+                                <Format>#,0;(#,0)</Format>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -376,7 +384,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!NameChange.Value</Value>
-                              <Style />
+                              <Style>
+                                <Format>#,0;(#,0)</Format>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -406,7 +416,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!OtherInformationChange.Value</Value>
-                              <Style />
+                              <Style>
+                                <Format>#,0;(#,0)</Format>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -436,7 +448,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!Lost.Value</Value>
-                              <Style />
+                              <Style>
+                                <Format>#,0;(#,0)</Format>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -454,7 +468,6 @@
                         <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
-                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
               </TablixCells>
@@ -483,10 +496,9 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
-        <Top>0.69667in</Top>
-        <Left>0.255in</Left>
-        <Height>0.5in</Height>
-        <Width>7in</Width>
+        <Top>0.24667in</Top>
+        <Height>0.6in</Height>
+        <Width>5.93333in</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -494,10 +506,10 @@
         </Style>
       </Tablix>
     </ReportItems>
-    <Height>2in</Height>
+    <Height>1.28333in</Height>
     <Style />
   </Body>
-  <Width>7.255in</Width>
+  <Width>5.96333in</Width>
   <Page>
     <LeftMargin>1in</LeftMargin>
     <RightMargin>1in</RightMargin>

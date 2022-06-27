@@ -318,7 +318,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!Defaced.Value</Value>
-                              <Style />
+                              <Style>
+                                <Format>#,0;(#,0)</Format>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -348,7 +350,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!Expired.Value</Value>
-                              <Style />
+                              <Style>
+                                <Format>#,0;(#,0)</Format>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -378,7 +382,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!NameChange.Value</Value>
-                              <Style />
+                              <Style>
+                                <Format>#,0;(#,0)</Format>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -408,7 +414,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!OtherChanges.Value</Value>
-                              <Style />
+                              <Style>
+                                <Format>#,0;(#,0)</Format>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -438,7 +446,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!Lost.Value</Value>
-                              <Style />
+                              <Style>
+                                <Format>#,0;(#,0)</Format>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />

@@ -11,7 +11,7 @@ namespace NRB_Revenue
 {
 
 
-    public partial class report
+    public partial class Advanced
     {
 
         /// <summary>

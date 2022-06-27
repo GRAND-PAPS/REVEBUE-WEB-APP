@@ -20,6 +20,25 @@ namespace NRB_Revenue.Model
             }
             return Dt;
         }
-
+        public static DataTable GetMonthlyReportByDistrictsandDates(string district,string sdate,string edate)
+        {
+            DataTable Dt = new DataTable();
+            using (SqlConnection con = new SqlConnection(DBConnects.GetConnection()))
+            {
+                SqlDataAdapter Adp = new SqlDataAdapter(RevenueQueries.GetMonthlyReportByDates(district, sdate, edate), DBConnects.GetConnection());
+                Adp.Fill(Dt);
+            }
+            return Dt;
+        }
+        public static DataTable GetMonthlyReportByDistricts(string district)
+        {
+            DataTable Dt = new DataTable();
+            using (SqlConnection con = new SqlConnection(DBConnects.GetConnection()))
+            {
+                SqlDataAdapter Adp = new SqlDataAdapter(RevenueQueries.GetMonthlyReportByDistrict(district), DBConnects.GetConnection());
+                Adp.Fill(Dt);
+            }
+            return Dt;
+        }
     }
 }
