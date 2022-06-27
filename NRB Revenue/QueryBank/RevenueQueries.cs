@@ -63,5 +63,19 @@ namespace NRB_Revenue.QueryBank
                 "order by DATEPART(month, DateOfUpload)";
             return query;
         }
+        public static string GetMonthlyDataByCurrentMonth()
+        {
+            string query = "SELECT Pin, Surname, OtherNames, FirstName, DateOfUpload, CASE WHEN ReasonForReplacement = 1 THEN 'DAMAGED' " +
+                "WHEN ReasonForReplacement = 2 THEN 'DEFACED' WHEN ReasonForReplacement = 3 THEN 'EXPIRED' WHEN ReasonForReplacement = 4 " +
+                "THEN 'NAME CHANGE' WHEN ReasonForReplacement = 5 THEN 'OTHER CHANGES' WHEN ReasonForReplacement = 6 THEN 'LOST' END AS " +
+                "TRANSACTIONS, CASE WHEN ReasonForReplacement = 1 THEN 2500 WHEN ReasonForReplacement = 2 THEN 2500 WHEN ReasonForReplacement = 3 " +
+                "THEN 2500 WHEN ReasonForReplacement = 4 THEN 5000 WHEN ReasonForReplacement = 5 THEN 2500 WHEN ReasonForReplacement = 6 THEN 2500 " +
+                "END AS AMOUNT FROM Person P JOIN Village V ON V.VillageId = P.PlaceOfRegistrationId JOIN Section S ON S.SectionId = V.SectionId " +
+                "JOIN Chiefdom C ON C.ChiefdomId = S.ChiefdomId " +
+                "JOIN District D ON D.DistrictId = C.DistrictId " +
+                "WHERE ReasonForReplacement> 0 AND MONTH(DateOfUpload)= MONTH(getdate()) and YEAR(DateOfUpload)= YEAR(getdate()) " +
+                "ORDER BY DateOfUpload";
+            return query;
+        }
     }
 }

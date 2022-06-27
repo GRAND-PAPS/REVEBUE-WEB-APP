@@ -154,6 +154,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DistrictDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DataSets\RevenueReport.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RevenueReport.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -224,6 +229,17 @@
     <Content Include="DataSets\DistrictDataSet.xss">
       <DependentUpon>DistrictDataSet.xsd</DependentUpon>
     </Content>
+    <Content Include="DataSets\RevenueReport.xsc">
+      <DependentUpon>RevenueReport.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSets\RevenueReport.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RevenueReport.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSets\RevenueReport.xss">
+      <DependentUpon>RevenueReport.xsd</DependentUpon>
+    </Content>
     <None Include="packages.config" />
     <Content Include="Revenue.Master" />
     <Content Include="Revenue1.Master" />
@@ -237,6 +253,7 @@
   <ItemGroup>
     <EmbeddedResource Include="Reports\DistrictReport.rdlc" />
     <EmbeddedResource Include="Reports\Report1.rdlc" />
+    <EmbeddedResource Include="Reports\RevenueReport.rdlc" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

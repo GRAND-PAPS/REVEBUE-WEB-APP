@@ -54,7 +54,7 @@
             <div class="mt-2 row">
                 <div class="col-10"></div>
                 <div class="col-2">
-                    <asp:Button ID="btnreportsearch" runat="server" CssClass="btn btn-primary fs-3 col-8" Text="Seach" /> 
+                    <asp:Button ID="btnreportsearch" runat="server" CssClass="btn btn-primary fs-3 col-8" Text="Seach" OnClick="btnreportsearch_Click" /> 
                     <asp:Label ID="MSGLabel" runat="server" Text="" />
                 </div>
             </div>
