@@ -70,7 +70,6 @@ namespace NRB_Revenue
 
         protected void allSystemUser_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
             RevuserGridView.DataSource = Person.GetAllUsers();
             RevuserGridView.DataBind();
         }
@@ -83,12 +82,10 @@ namespace NRB_Revenue
             dropUsertype.Text = row.Cells[3].Text;
             txtposition.Text = row.Cells[4].Text;
             dropInstitution.Text = row.Cells[5].Text;
-=======
             using (SqlConnection conn = new SqlConnection(DBConnects.GetconnRev()))
             {
 
             }
->>>>>>> bbfc6b1ce73b25c1e7d2fe94e76beb752ea9ac5f
         }
     }
 }
