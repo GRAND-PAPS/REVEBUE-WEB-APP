@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NRB_Revenue.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -16,7 +17,27 @@ namespace NRB_Revenue
 
         protected void Loginbtn_Click(object sender, EventArgs e)
         {
+            Authenticateuser();
+        }
+        void Authenticateuser()
+        {
+            string user = LoginUsername.Text, pwd = LoginPassword.Text;
+            try
+            {
+                if(Person.GetLogedUser(user,pwd).Rows.Count==0)
+                {
+                    ScriptManager.RegisterStartupScript(this, this.GetType(), "Script", "alert('There is No System User with that Name');", true);
+                }
+                else
+                {
+                    UserDetails.Username=user;
+                    Response.Redirect("~/dashboard.aspx");
+                }
+            }
+            catch
+            {
 
+            }
         }
     }
 }

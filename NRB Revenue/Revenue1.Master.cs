@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NRB_Revenue.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,7 @@ namespace NRB_Revenue
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            usernamelbl.Text = UserDetails.Username;
         }
     }
 }

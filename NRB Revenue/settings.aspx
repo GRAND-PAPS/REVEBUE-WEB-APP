@@ -54,7 +54,7 @@
         <div class="mt-4 row">
             <%--GridView section--%>
             <div class="col card">
-                <asp:GridView ID="RevuserGridView" CssClass="col-12 fs-4" runat="server" AutoGenerateColumns="false" BorderStyle="None">
+                <asp:GridView ID="RevuserGridView" OnSelectedIndexChanged="RevuserGridView_SelectedIndexChanged" CssClass="col-12 fs-4" runat="server" AutoGenerateColumns="false" BorderStyle="None">
                     <Columns>
                         <asp:BoundField DataField="UserID" HeaderText="User ID" />
                         <asp:BoundField DataField="FirstName" HeaderText="First Name" />
@@ -63,11 +63,14 @@
                         <asp:BoundField DataField="usertype" HeaderText="User Type" />
                         <asp:BoundField DataField="Institution" HeaderText="Institution" />
                         <asp:BoundField DataField="Username" HeaderText="Username" />
-                        <asp:TemplateField>
+                        <%--<asp:TemplateField>
                             <ItemTemplate>
                                 <asp:LinkButton ID="revEdituserbtn" runat="server" CssClass="btn btn-info" Text="Edit User" CommandArgument='<%# Eval("UserID") %>' OnClick="revEdituserbtn_Click"></asp:LinkButton>
                             </ItemTemplate>
-                        </asp:TemplateField>                  
+                        </asp:TemplateField>  --%>    
+                        
+                <asp:CommandField ShowSelectButton="true"  ControlStyle-CssClass="btn btn-info" />
+                        <asp:CommandField ShowSelectButton="true"  ControlStyle-CssClass="btn btn-info" />
                     </Columns>
                 </asp:GridView>
             </div>
