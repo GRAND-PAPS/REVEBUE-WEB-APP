@@ -95,7 +95,10 @@ namespace NRB_Revenue
 
         protected void allSystemUser_Click(object sender, EventArgs e)
         {
+            using (SqlConnection conn = new SqlConnection(DBConnects.GetconnRev()))
+            {
 
+            }
         }
     }
 }
