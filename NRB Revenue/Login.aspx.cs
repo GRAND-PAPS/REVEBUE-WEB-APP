@@ -4,6 +4,10 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data.SqlClient;
+using NRB_Revenue.Model;
+using NRB_Revenue.QueryBank;
+using System.Data;
 
 namespace NRB_Revenue
 {
@@ -16,7 +20,18 @@ namespace NRB_Revenue
 
         protected void Loginbtn_Click(object sender, EventArgs e)
         {
+            using (SqlConnection cn = new SqlConnection(DBConnects.GetconnRev()))
+            {
+                string query = "select * from RevUser where Username='"+LoginUsername.Text+"' and Password='"+LoginPassword.Text+"'";
+                SqlDataAdapter sqlData = new SqlDataAdapter(query, cn);
+                DataTable RevT = new DataTable();
+                sqlData.Fill(RevT);
 
+                if(RevT.Rows.Count > 0)
+                {
+
+                }
+            }
         }
     }
 }
