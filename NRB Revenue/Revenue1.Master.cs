@@ -12,7 +12,18 @@ namespace NRB_Revenue
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            usernamelbl.Text = UserDetails.Username;
+            if(!IsPostBack)
+            {
+                if(usernamelbl.Text== "System username")
+                {
+                    Response.Redirect(@"~/Login.aspx");
+                }
+                else
+                {
+                    usernamelbl.Text = UserDetails.Username;
+                }
+            }
+            
         }
     }
 }
