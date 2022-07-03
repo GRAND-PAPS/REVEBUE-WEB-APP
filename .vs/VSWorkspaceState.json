@@ -1,9 +1,15 @@
 {
   "ExpandedNodes": [
+<<<<<<< HEAD
     "",
     "\\NRB Revenue",
     "\\packages"
   ],
   "SelectedNode": "\\NRB Revenue.sln",
+=======
+    ""
+  ],
+  "SelectedNode": "\\NRB RevenueApplication.sln",
+>>>>>>> f2863c6df2eac4c1b213e3fa98bfd99d15718a9a
   "PreviewInSolutionExplorer": false
 }

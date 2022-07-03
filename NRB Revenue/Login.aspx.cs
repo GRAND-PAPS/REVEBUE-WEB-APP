@@ -1,13 +1,15 @@
-﻿using NRB_Revenue.Model;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+<<<<<<< HEAD
 using System.Data.SqlClient;
 using NRB_Revenue.QueryBank;
 using System.Data;
+=======
+>>>>>>> f2863c6df2eac4c1b213e3fa98bfd99d15718a9a
 
 namespace NRB_Revenue
 {
@@ -21,6 +23,7 @@ namespace NRB_Revenue
         protected void Loginbtn_Click(object sender, EventArgs e)
         {
 
+<<<<<<< HEAD
             Authenticateuser();
         }
 
@@ -44,6 +47,8 @@ namespace NRB_Revenue
 
 
             }
+=======
+>>>>>>> f2863c6df2eac4c1b213e3fa98bfd99d15718a9a
         }
     }
 }

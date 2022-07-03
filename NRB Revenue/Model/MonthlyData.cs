@@ -20,15 +20,5 @@ namespace NRB_Revenue.Model
             }
             return Dt;
         }
-        public static DataTable GetMonthlyRevenueByDistrict()
-        {
-            DataTable Dt = new DataTable();
-            using (SqlConnection con = new SqlConnection(DBConnects.GetConnection()))
-            {
-                SqlDataAdapter Adp = new SqlDataAdapter(RevenueQueries.GetMonthlyRevenue(), DBConnects.GetConnection());
-                Adp.Fill(Dt);
-            }
-            return Dt;
-        }
     }
 }

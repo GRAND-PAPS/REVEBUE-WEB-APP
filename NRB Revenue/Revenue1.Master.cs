@@ -1,5 +1,4 @@
-﻿using NRB_Revenue.Model;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +11,7 @@ namespace NRB_Revenue
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if(!IsPostBack)
             {
                 if(usernamelbl.Text== "System username")
@@ -24,6 +24,9 @@ namespace NRB_Revenue
                 }
             }
             
+=======
+
+>>>>>>> f2863c6df2eac4c1b213e3fa98bfd99d15718a9a
         }
     }
 }

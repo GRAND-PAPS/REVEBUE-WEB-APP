@@ -7,7 +7,7 @@ namespace NRB_Revenue.Model
 {
     public class UserDetails
     {
-        public static string Username;
+        public int UserId;
         public string Firstname;
         public string Surname;
         public string Usertype;

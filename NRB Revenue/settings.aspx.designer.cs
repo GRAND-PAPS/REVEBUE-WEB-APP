@@ -33,15 +33,6 @@ namespace NRB_Revenue
         protected global::System.Web.UI.WebControls.Button btnsearch;
 
         /// <summary>
-        /// allSystemUser control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button allSystemUser;
-
-        /// <summary>
         /// txtfirstname control.
         /// </summary>
         /// <remarks>
@@ -78,13 +69,13 @@ namespace NRB_Revenue
         protected global::System.Web.UI.WebControls.TextBox txtposition;
 
         /// <summary>
-        /// dropInstitution control.
+        /// dropInstution control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList dropInstitution;
+        protected global::System.Web.UI.WebControls.DropDownList dropInstution;
 
         /// <summary>
         /// txtPassword control.
@@ -121,14 +112,5 @@ namespace NRB_Revenue
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnsubimt;
-
-        /// <summary>
-        /// RevuserGridView control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView RevuserGridView;
     }
 }

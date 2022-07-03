@@ -482,6 +482,38 @@ E:\Grindelwald\My Projects\Project 1\NRB Revenue\REVEBUE-WEB-APP\NRB Revenue\bin
 E:\Grindelwald\My Projects\Project 1\NRB Revenue\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.TemplateWizardInterface.xml
 E:\Grindelwald\My Projects\Project 1\NRB Revenue\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportViewer.WinForms.xml
 E:\Grindelwald\My Projects\Project 1\NRB Revenue\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.GraphModel.xml
+<<<<<<< HEAD
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.Interop.dll
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.Shell.15.0.dll
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.Shell.Design.dll
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.Shell.Framework.dll
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.SqlServer.Types.dll
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.mshtml.dll
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\EnvDTE.dll
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\EnvDTE80.dll
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.Telemetry.dll
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.RpcContracts.dll
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\stdole.dll
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\System.Memory.dll
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.Utilities.Internal.dll
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Newtonsoft.Json.dll
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.RemoteControl.dll
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\System.Buffers.dll
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.MSXML.dll
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportViewer.WebForms.xml
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportViewer.WinForms.xml
+C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.GraphModel.xml
+=======
 G:\DEV C#\NRB Systems\NEW NRB\REVEBUE-WEB-APP\NRB Revenue\bin\NRB Revenue.dll.config
 G:\DEV C#\NRB Systems\NEW NRB\REVEBUE-WEB-APP\NRB Revenue\bin\NRB Revenue.dll
 G:\DEV C#\NRB Systems\NEW NRB\REVEBUE-WEB-APP\NRB Revenue\bin\NRB Revenue.pdb
@@ -659,3 +691,4 @@ C:\Users\MAYAH\Source\Repos\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.cs
 C:\Users\MAYAH\Source\Repos\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.csproj.CopyComplete
 C:\Users\MAYAH\Source\Repos\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.dll
 C:\Users\MAYAH\Source\Repos\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.pdb
+>>>>>>> 3439799803ddecedd4cdcac93281cdf42dda67cc
