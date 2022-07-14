@@ -482,7 +482,6 @@ E:\Grindelwald\My Projects\Project 1\NRB Revenue\REVEBUE-WEB-APP\NRB Revenue\bin
 E:\Grindelwald\My Projects\Project 1\NRB Revenue\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.TemplateWizardInterface.xml
 E:\Grindelwald\My Projects\Project 1\NRB Revenue\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportViewer.WinForms.xml
 E:\Grindelwald\My Projects\Project 1\NRB Revenue\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.GraphModel.xml
-<<<<<<< HEAD
 C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportViewer.Common.dll
 C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportViewer.WebForms.dll
 C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.Interop.dll
@@ -513,7 +512,6 @@ C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportView
 C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.TemplateWizardInterface.xml
 C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.ReportViewer.WinForms.xml
 C:\Users\ISSAH\source\repos\REVEBUE-WEB-APP\NRB Revenue\bin\Microsoft.VisualStudio.GraphModel.xml
-=======
 G:\DEV C#\NRB Systems\NEW NRB\REVEBUE-WEB-APP\NRB Revenue\bin\NRB Revenue.dll.config
 G:\DEV C#\NRB Systems\NEW NRB\REVEBUE-WEB-APP\NRB Revenue\bin\NRB Revenue.dll
 G:\DEV C#\NRB Systems\NEW NRB\REVEBUE-WEB-APP\NRB Revenue\bin\NRB Revenue.pdb
@@ -692,3 +690,7 @@ C:\Users\MAYAH\Source\Repos\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.cs
 C:\Users\MAYAH\Source\Repos\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.dll
 C:\Users\MAYAH\Source\Repos\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.pdb
 >>>>>>> 3439799803ddecedd4cdcac93281cdf42dda67cc
+E:\Grindelwald\My Projects\Project 1\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.csproj.AssemblyReference.cache
+E:\Grindelwald\My Projects\Project 1\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.csproj.CoreCompileInputs.cache
+E:\Grindelwald\My Projects\Project 1\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.dll
+E:\Grindelwald\My Projects\Project 1\REVEBUE-WEB-APP\NRB Revenue\obj\Debug\NRB Revenue.pdb
