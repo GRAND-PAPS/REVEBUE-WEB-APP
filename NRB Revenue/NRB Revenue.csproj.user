@@ -16,6 +16,10 @@
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
           <StartPageUrl>Login.aspx</StartPageUrl>
+<<<<<<< HEAD
+=======
+          <StartPageUrl>dashboard.aspx</StartPageUrl>
+>>>>>>> 9c9ba61349cc2ea217025de5f6738df349cbadfd
           <StartAction>SpecificPage</StartAction>
           <AspNetDebugging>True</AspNetDebugging>
           <SilverlightDebugging>False</SilverlightDebugging>
